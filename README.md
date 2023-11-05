@@ -82,5 +82,4 @@ A comprehensive list of references and resources used in the project.
 
 ---
 
-This project adheres to the code of conduct as stipulated by the academic institution, ensuring all sources are appropriately cited and intellectual honesty is maintained throughout.
 
