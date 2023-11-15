@@ -33,9 +33,13 @@ La probabilité discrète étudie les situations avec un nombre fini d'événeme
 Pour calculer la probabilité que dans un groupe de N personnes, au moins deux personnes aient le même anniversaire, nous utilisons la formule suivante:
 Établir la formule donnant la probabilité que deux personnes aient le même anniversaire dans une classe de N élèves :
 
+ 
    $$
    P(N) = 1 - \prod_{i=1}^{N-1} \left(1 - \frac{i}{365}\right)
    $$
+
+
+
 Cette formule nous indique que pour chaque nouvel individu ajouté, il faut multiplier la probabilité précédente par la chance que son anniversaire ne coïncide pas avec ceux déjà choisis.
 
 ---
