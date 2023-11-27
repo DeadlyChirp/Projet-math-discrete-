@@ -68,7 +68,9 @@ La comparaison entre les résultats expérimentaux et théoriques est essentiell
   - La formule peut être adaptée pour des cas où le nombre de jours dans l'année varie, ce qui peut être pertinent pour des applications spécifiques comme la cryptographie où l'on s'intéresse au nombre de valeurs de hash possibles.
 Adaptation de la formule pour d jours différents de 365
 Si on généralise le nombre de jours à d, la formule devient:
+$$
 P(N) = 1 - \prod_{i=1}^{N-1} \left(1 - \frac{i}{365}\right)
+$$
 Cette formule peut être utilisée pour calculer les probabilités dans des situations où l'espace des événements possibles est différent de celui du calendrier grégorien.
 
 
